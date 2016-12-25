@@ -24,10 +24,11 @@ angular.module("productApp",[])
       <input type="text" class="form-control" ng-model="search" placeholder="Enter Search Criteria">
     </div>
 	<div class ="col-sm-8">
+	
 	</div>
-  </div>
+</div>
 
-<div style="padding-left:100px"  ng-controller = "productController" class="row" style="padding-top:100px">
+<div style="padding-left:100px"  ng-controller = "productController" class="row" style="padding-top:100px;padding-top:220px">
 	<table class ="table table-striped">
 	<thead>
 	   <tr>
@@ -35,7 +36,7 @@ angular.module("productApp",[])
 		<th ng-click="sort('brand')">Brand</th>
 		<th ng-click="sort('price')">Price</th>
 		<th ng-click="sort('category')">Category</th>
-		<th></th>
+		<th>More Info</th>
 	   </tr>
 	</thead>
 
